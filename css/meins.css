@@ -1,0 +1,712 @@
+/*w3schools*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+  position: relative;
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #333;
+  color: white;
+}
+
+/* Centered section inside the top navigation */
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+
+/* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+/*w3schools button*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  width: 100px;
+  
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*w3schools button end */ 
+
+/*w3schools*/
+
+
+   /* Add some basic styling to position text and image */
+ .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 800px;
+  /* margin: 0 auto;*/
+   margin: 50px auto ;
+   margin-bottom: 40px;
+
+
+  }
+
+  .text {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .image {
+    flex: 1;
+    padding: 20px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below image */
+    margin: 0 auto; /* Center the image */
+
+
+
+  }
+
+
+
+  /*text center*/
+
+  .tcenter{
+
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  /*text center end*/
+
+
+
+
+  /* w3schools Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+ /* Footer End */
+
+
+
+
+
+
+/*w3schools Image Hover*/
+
+.containera {
+  position: relative;
+  width: 20%;
+  margin-bottom: 80px;
+}
+
+.imagea {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middlea {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.containera:hover .imagea {
+  opacity: 0.3;
+}
+
+.containera:hover .middlea {
+  opacity: 1;
+}
+
+.texta {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/*New recipies*/
+
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px; /* Adjust margin as needed */
+}
+
+/* Set a specific width for the images */
+.image-container img {
+  max-width: 100%; /* Make sure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+  width: 100%; /* Adjust the width as needed */
+}
+
+
+/*New recipies Ende*/
+
+
+ 
+/*w3schools Image Hover End*/
+
+
+
+
+
+ /*[w3schools] november favorite*/
+
+
+
+
+
+
+
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+  
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+   
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  
+  .flex-container > div > img {
+    border-radius: 30px 5px 30px 5px;
+    object-fit: cover;
+
+    max-width: 100%; /* Make sure images don't exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    width: 450px; /* Adjust the width as needed */
+
+
+  }
+
+  .textjustify{
+
+    text-align:justify;
+    font-size:large;
+   
+  }
+
+
+
+.titlerec{
+  font-size:larger;
+  font-weight: bolder;
+
+}
+  
+.subtitle{
+
+  font-size: large;
+
+  font-weight: bold;
+}
+
+
+  /*[w3schools] november favorite end */ 
+
+  /* all recipes */ 
+
+
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+
+
+
+
+  
+
+
+  /* Add a style for the button */
+
+  .button-container {
+    position: relative;
+  }
+  
+  .button222 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    visibility: hidden; /* Initially hide the button */
+  }
+  
+  .button-container:hover .button222 {
+    visibility: visible; /* Show the button on hover */
+  }
+  
+  .button-container:hover img {
+    opacity: 0.7; /* Adjust the opacity as needed */
+  }
+
+
+  /* all recipes end */ 
+
+
+  /*  recipes  */ 
+
+
+  th, td {
+    font-size: 20px;
+
+  }
+
+
+
+  /*footer*/
+.textfooter{
+
+  font-weight: bold;
+
+  font-size: large;
+}
+ 
+
+
+
+  
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: rgb(62, 64, 66);
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+ 
+}
+
+.input-field:focus {
+  border: 2px solid rgb(62, 64, 66);
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: rgb(62, 64, 66);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+#email{
+  max-width:500px;
+  margin:auto;
+
+
+}
+
+
+
+
+
+
+  /*footer end*/
+
+
+  /*dark mode*/
+.dark-mode {
+  background-color: rgb(61, 60, 60);
+  color: rgba(255, 255, 255, 0.793)
+  
+}
+
+.dark-mode div {
+  background-color: rgb(61, 60, 60);
+  color: rgba(255, 255, 255, 0.793);
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*w3schools*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(224, 210, 169);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text9 {
+  color: #131010;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text9 {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.hr-lines{
+  position: relative;
+  max-width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.hr-lines:before{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: rgb(0, 0, 0);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.hr-lines:after{
+  content:" ";
+  height: 2px;
+  width: 130px;
+  background: rgb(0, 0, 0);
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: left;
+  bottom: 23px;
+  right: 28px;
+  width: 110px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(189, 185, 185);
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: rgb(224, 210, 169);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(61, 60, 60);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+.buttonend {
+  padding: 15px 25px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #434846;
+  border: none;
+  border-radius: 15px;
+
+}
+
+.buttonend:hover {background-color: rgb(224, 210, 169)}
+
+.buttonend:active {
+  background-color: rgb(224, 210, 169);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

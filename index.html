@@ -1,0 +1,3280 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilge's Bakery</title>
+    <link rel="stylesheet" href="css/meins.css"> 
+
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+    <script src="https://kit.fontawesome.com/fdc6661506.js" crossorigin="anonymous"></script>
+
+    <script src="js/meinJS.js" defer></script>  
+  </head>
+
+
+  <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+   
+   <!-- Top navigation -->
+<div class="topnav" id="top">
+
+  <!-- Centered link -->
+  <div class="topnav-centered">
+    <a class="active">Bilge's Bakery</a>
+  </div>
+
+  <!-- Left-aligned links (default) -->
+   <button class="open-button" onclick="openForm()"> &#128386; </button>
+
+  <div class="chat-popup" id="myForm">
+    <form  class="form-container">
+      <h1>any recipe wishes? Let me know!</h1>
+  
+      <label for="msg"><b>Message</b></label>
+      <textarea placeholder="Type message.." id="msg" required></textarea>
+  
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
+  </div>
+  
+  
+
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="#" onclick="myFunction()"><i class="fa-solid fa-lightbulb fa-xl"></i></a> 
+</div>
+  </div>
+
+  <!--   </div> -->
+ <div class="content">  <!-- Top navigation End -->
+
+  <!-- Welcome  -->
+
+  <div class="container">
+    <div class="text">
+      <h1>give your life some sweetness</h1>
+      <p>Explore my online bakery blog for recipes that turn every kitchen into a sweet haven</p>
+
+
+
+     
+
+
+
+   <a href="#all" class="button" ><span>Click</span></a>
+
+    </div>
+   
+    <div class="image">
+      <img src="img/logo.png" alt="Logo">
+    </div>
+  </div>
+
+
+
+   <!-- Welcome end -->
+
+</div>
+  <!-- New Recipes -->
+
+  <h1 class="tcenter hr-lines " >new recipes</h1>
+
+
+  <div class="image-container"> 
+  
+
+    <div class="containera">
+    
+      <img src="img/lana-mattice-gKrxflp1wv0-unsplash.jpg" alt="Avatar" class="imagea" >
+      
+      
+      <div class="middlea">
+        <div class="texta">oreo muffin</div>
+      </div>
+      
+      
+     
+    </div>
+    
+    <div class="containera">
+    
+      <img src="img/natallia-nagorniak-dvd1NSoteHg-unsplash(1).jpg" alt="blueberry muffin" class="imagea" >
+      
+      
+      <div class="middlea">
+        <div class="texta">blueberry muffin</div>
+      </div>
+      
+      
+     
+    </div>
+      
+      
+      <div class="containera">
+    
+      <img src="img/american-heritage-chocolate-vdx5hPQhXFk-unsplash.jpg" alt="chocolate hazelnut cake" class="imagea" >
+      
+      
+      <div class="middlea">
+        <div class="texta">drip cake</div>
+      </div>
+      
+      
+     
+    </div>
+    
+    </div>
+
+  <!-- New Recipes end-->
+
+
+ <!--november favorites--> 
+
+ <div >
+  <div class="tcenter">
+    <h1 class=" tcenter hr-lines ">november favorite</h1>
+    <p> As always, I present the monthly favorite you have chosen</p>
+
+  </div>
+
+    <div class="flex-container"><!-- flexcontainer --> 
+
+ 
+  
+
+      <div > <img  src="img/alexandra-golovac--Qe0rpF2ThY-unsplash.jpg"  alt="lemoncake" >  </div>
+
+
+
+   
+
+    <div>
+
+
+
+      <h3 class="title">THE LEMON CAKE  </h3>   <p class="subtitle">A LEMON DELIGHT</p>        
+
+
+
+    <div class="textjustify">  Indulge your taste buds in the tantalizing world of citrus with our irresistible Lemon Cake. <br> 
+      This delectable treat is  a symphony of flavors that will transport you to a sunny orchard with every bite. <br>
+      The texture is a perfect balance between airy and velvety, creating a melt-in-your-mouth sensation that <br>
+      leaves you craving for more. Perfect for any occasion, our Lemon Cake is a crowd-pleaser that never<br> fails to 
+      brighten moods and leave a lingering sense of satisfaction. Whether enjoyed with a hot cup of tea or as a <br> standalone dessert,
+      this citrus-infused creation is bound to become a cherished favorite for those who appreciate <br> the refreshing taste of lemons
+      in a  delightful cake.</div>
+
+      <br>
+      <div> <a href="#sectionlemon"  class="button" >
+        
+        <span>Click </span> </a></div>
+    </div>
+    
+ 
+
+
+    </div><!-- flexcontainer end--> 
+   
+  </div>
+
+ <!--november favorites end--> 
+
+
+
+  <!--all recipes--> 
+
+  <h1    class="tcenter hr-lines">all recipes</h1>
+
+  <div id="all" class="row">
+
+    
+     <!--column 1-->
+    <div class="column ">
+
+
+      
+        
+      <div class="button-container">
+        <img src="img/fernando-andrade-_OhdR0TPeUE-unsplash.jpg" alt="raspberrytartlets">
+
+        <a href="#sectionraspberry" class="button222"> <span>raspberry tartlets</span></a>
+       
+      </div>
+
+      
+
+      <div class="button-container">
+        <img src="img/larissa-uemura-S2KGqxh-10E-unsplash.jpg" alt="chocolatebrownies">
+
+        <a href="#sectionbrownie" class="button222"><span>chocolate brownies</span> </a>
+        
+     
+      </div>
+
+
+
+      <div class="button-container">
+        <img src="img/joyful-jmymh4uwP3M-unsplash.jpg" alt="blueberryyogurtbananabread">
+
+        <a href="#sectionbread" class="button222" ><span > blueberry yogurt banana bread</span></a>
+      
+      
+      </div>
+
+
+
+      <div class="button-container">
+        <img src="img/uliana-kopanytsia-ySxSlqeC0YM-unsplash.jpg" alt="chocolateraspberrycake" >
+
+        <a href="#sectionccake" class="button222"> <span >chocolate raspberry cake </span></a>
+
+      </div>
+
+
+  
+
+  
+      <div class="button-container">
+        <img src="img/monika-grabkowska-EbRBhZ-I_p8-unsplash.jpg" alt="blueberrycheesecake " >
+
+        <a href="#sectionbccake" class="button222"> <span > blueberry cheesecake  </span></a>
+
+      </div>
+
+   
+    </div>
+
+
+    
+     <!--column 2-->
+    <div class="column">
+      
+
+
+      <div class="button-container">
+        <img src="img/joyful-vT5xrj3z1OE-unsplash.jpg" alt="proteinpancakes " >
+
+        <a href="#sectionpancake" class="button222"> <span > protein pancakes  </span></a>
+
+
+      </div>
+     
+
+      <div class="button-container">
+        <img src="img/natallia-nagorniak-2CQSvxsWNzE-unsplash.jpg" alt=" whitechocolatemochacupcakes" >
+
+        <a href="#sectionmocha" class="button222"><span > white chocolate mocha cupcakes  </span></a>
+
+      </div>
+
+
+      
+
+      <div class="button-container">
+
+        <img src="img/heather-barnes-xatIo9Ksfb0-unsplash.jpg" alt="peanutbuttercups" >
+
+        <a href="#sectionbuttercup" class="button222"><span >  peanut butter cups </span> </a>
+
+      </div>
+
+
+      <div class="button-container">
+        <img src="img/natallia-nagorniak-dvd1NSoteHg-unsplash(1).jpg" alt="blueberrymuffin" >
+
+        <a href="#sectionblueberrymuffin" class="button222"> <span >  blueberry muffin</span></a>
+
+      </div>
+
+
+      
+
+
+      <div class="button-container">
+        <img src="img/alexandra-golovac-nN_AjO-Pjgg-unsplash.jpg" alt="elderberrylemoncake" >
+
+        <a href="#sectionelderberry" class="button222"><span > elderberry lemon cake</span></a>
+
+      </div>
+
+     
+
+    
+    </div>
+
+
+     <!--column 3-->
+    <div class="column">
+
+      
+
+
+      <div class="button-container">
+        <img src="img/diliara-garifullina-Gx_vsiMRgzk-unsplash.jpg" alt=" mille-feuille with cream and strawberries" >
+
+        <a href="#sectionMillefeuille" class="button222"><span > mille-feuille with cream and strawberries</span> </a>
+
+      </div>
+
+
+      <div class="button-container">
+        <img src="img/american-heritage-chocolate-vdx5hPQhXFk-unsplash.jpg" alt="dripcake" >
+
+        <a href="#sectionDripCake" class="button222"><span >   drip cake</span></a>
+
+      </div>
+
+      
+
+
+      <div class="button-container">
+        <img src="img/kim-daniels-OrkEasJeY74-unsplash.jpg" alt="lemontartlets" >
+
+        <a href="#sectionlemontart" class="button222"> <span > lemon tartlets</span></a>
+
+      </div>
+
+
+      <div class="button-container">
+        <img src="img/sheri-silver-wwRCtXViSeI-unsplash.jpg" alt="cronut" >
+        <button class="button222"> coming soon: cronut</button>
+      </div>
+
+  
+  
+    </div>
+
+
+     <!--column 4-->
+    <div class="column">
+
+
+      
+        <div class="button-container">
+          <img src="img/karly-gomez-lK1Q5RyD6tc-unsplash.jpg" alt="pannacotta" >
+
+          <a href="#sectionpc" class="button222"><span > panna cotta</span></a>
+        </div>
+
+
+        
+
+        <div class="button-container">
+          <img src="img/lana-mattice-gKrxflp1wv0-unsplash.jpg" alt="oreomuffin" >
+
+          <a href="#sectionoreomuffin" class="button222"><span >oreo muffin</span></a>
+        </div>
+
+
+       
+
+
+        <div class="button-container">
+          <img src="img/natallia-nagorniak-2lUo-DcYdwk-unsplash.jpg" alt="blueberrylemoncake" >
+
+          <a href="#sectionblueberrylemoncake" class="button222"> <span >blueberry lemon cake</span></a>
+
+        </div>
+
+
+        <div class="button-container">
+          <img src="img/alexandra-golovac--Qe0rpF2ThY-unsplash.jpg" alt="thelemoncake" >
+
+          <a href="#sectionlemon" class="button222"><span >the lemon cake</span></a>
+
+
+        </div>
+
+
+
+        <div class="button-container">
+          <img src="img/alex-lvrs-aX_ljOOyWJY-unsplash.jpg" alt="limepie" >
+          <button class="button222">coming soon: lime pie</button>
+        </div>
+
+
+    </div>
+  </div>
+
+
+  <!--all recipes end--> 
+
+
+
+
+
+  <!-- recipes --> 
+
+  
+  <div class="flex-container"><!-- flexcontainer raspberry tartlets --> 
+
+ 
+  
+
+    <div > <img  src="img/fernando-andrade-_OhdR0TPeUE-unsplash.jpg"  alt="rasbperrytartlets" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionraspberry"> INGREDIENTS  </h5>
+    
+    
+    <p class="subtitle">        for 4 portions      </p>   
+    
+    
+   
+  
+
+      <table>
+     
+      <tbody>
+        <tr>
+          <td>80 g</td>
+          <td>butter</td>
+        </tr>
+        <tr>
+          <td>25 g</td>
+          <td> powdered sugar</td>
+        </tr>
+        
+        
+        <tr>
+          <td>125 g</td>
+          <td>flour</td>
+        </tr>
+
+        <tr>
+          <td>50 g</td>
+          <td>almond(s) or nuts of your choice, grated</td>
+        </tr>
+
+
+        <tr>
+          <td>1 pinch(s)</td>
+          <td>baking powder, generously measured</td>
+        </tr>
+
+        <tr>
+          <td>1 pinch(s)</td>
+          <td>salt</td>
+        </tr>
+
+
+        <tr>
+          <td>1</td>
+          <td>egg</td>
+        </tr>
+
+        <tr>
+          <td>2 tbsp</td>
+          <td>jam, preferably sour</td>
+        </tr>
+
+        <tr>
+          <td>175 g</td>
+          <td>cream cheese</td>
+        </tr>
+
+        <tr>
+          <td>75 g</td>
+          <td>cream </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>Sugar, as desired </td>
+        </tr>
+
+        <tr>
+          <td>125 g	</td>
+          <td> Berries, if desired</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>Powdered sugar or toasted almond flakes </td>
+        </tr>
+
+        
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">
+  Mix flour almonds (nuts) and baking powder. Mix butter with powdered sugar & salt. <br>
+  Separate the egg. Add the egg yolks to the butter and set the egg whites aside.<br>
+  Mix the butter and egg yolks, then briefly knead in the flour mixture. Wrap the dough <br>
+  in cling film and refrigerate for 30 minutes.
+
+
+
+</p>
+
+
+<p class="textjustify">
+
+  Preheat the oven to 200°C. After 30 minutes, line the molds with the dough and prick <br>
+  the bottom of the tartlets several times with a fork. Bake the tartlets on the middle <br>
+  rack for about 15 min. Whisk the egg white a little and after 15 minutes of baking,<br>
+  carefully brush the inside of the tartlets with it. Bake for another 5-10 minutes <br>
+  (depending on the desired degree of browning and the oven). Stir the jam until smooth<br>
+  (if necessary with a few drops of hot water). Spread the tartlets with the jam <br>
+  immediately after baking. Let cool down.
+
+
+
+</p>
+
+<p class="textjustify">
+
+  In the meantime, whip the cream until stiff. Stir the cream cheese until smooth and<br>
+  sweeten to taste. Fold in the cream. Spread the cream over the cooled tartlets and <br>
+  garnish with the berries. Before serving, decorate with a little powdered sugar or <br>
+  a few toasted almond flakes.
+
+
+</p>
+
+
+
+
+</div>
+
+  </div><!-- flexcontainer raspberry tartlets end--> 
+
+
+
+
+
+ 
+  <div class="flex-container"><!-- flexcontainer protein pancakes --> 
+
+ 
+  
+
+    <div > <img  src="img/joyfulkopie.jpg"  alt="proteinpancakes" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionpancake"> INGREDIENTS </h5> <p class="subtitle">for 5 portions</p>    
+
+    
+   
+  
+
+      <table>
+     
+      <tbody>
+        <tr>
+          <td>10</td>
+          <td>eggs</td>
+        </tr>
+        <tr>
+          <td>250 g</td>
+          <td> lowfat quark</td>
+        </tr>
+        
+        
+        <tr>
+          <td>125 g</td>
+          <td>flour</td>
+        </tr>
+
+        <tr>
+          <td>137 g</td>
+          <td>protein powder</td>
+        </tr>
+
+
+        <tr>
+          <td>500 g</td>
+          <td>berries</td>
+        </tr>
+
+        <tr>
+          <td>2 1/2 tbsp </td>
+          <td>oil for the pan</td>
+        </tr>
+
+
+        <tr>
+          <td>2 1/2 pinch</td>
+          <td>erythritol</td>
+        </tr>
+
+  
+        
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">
+  For the pancakes, first break the fresh eggs into a bowl and stir until foamy.Then add low-fat quark, erythritol<br>
+  and protein powder and mix all ingredients well.Then heat the oil in a coated pan and add about 2 tablespoons of &nbsp;  <br>
+  batter to the pan for each pancake.
+
+
+</p>
+
+
+
+<p class="textjustify">
+  Bake the pancakes briefly over medium heat until bubbles form on the surface, then turn them over and finish <br>
+  baking. Finally, arrange the small pancakes on preheated plates, top with the fresh berries and serve immediately.
+</p>
+
+
+</div>
+
+  </div><!-- flexcontainer protein pancakes end--> 
+
+
+
+  <div class="flex-container"><!-- flexcontainer panna cotta --> 
+
+ 
+  
+
+    <div > <img  src="img/karly-gomez-lK1Q5RyD6tc-unsplash.jpg"  alt="pannacotta" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionpc"> INGREDIENTS  </h5> <p class="subtitle">for 4 portions </p>  
+
+
+
+
+
+
+  
+
+      <table>
+     
+      <tbody>
+        <tr>
+          <td>500 g</td>
+          <td>organic coconut milk</td>
+        </tr>
+        <tr>
+          <td>1 tsp </td>
+          <td> agar-agar powder</td>
+        </tr>
+        
+        
+        <tr>
+          <td>1 tsp</td>
+          <td>vanilla sugar</td>
+        </tr>
+
+        
+        <tr>
+          <td>1 pinch</td>
+          <td>salt</td>
+        </tr>
+
+        
+          <tr>
+            <th>For the topping:  </th>
+            <th> </th>
+          </tr>
+       
+
+        <tr>
+          <td>300 g </td>
+          <td>strawberries</td>
+        </tr>
+
+        <tr>
+          <td>1 tbsp</td>
+          <td> sugar</td>
+        </tr>
+
+        <tr>
+          <td>1 tbsp</td>
+          <td>lemon juice</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>a few mint leaves</td>
+        </tr>
+
+       
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">
+  For the panna cotta, bring the coconut milk , sugar, vanilla and salt to the boil in a saucepan. Mix the<br>
+  agar agar powder with a little cold water and stir into the coconut milk. Let the <br>
+  coconut milk boil for at least 2 minutes so that the agar agar gels when it cools. Stir <br>
+  occasionally. Pour the coconut milk into small glasses and keep cool. <br>
+  Wash the strawberries and remove the stems.
+  
+
+</p>
+
+
+<p class="textjustify">
+  If desired, puree half of the fruit with the sugar and lemon juice and cut the remaining strawberries  <br>
+  into pieces. Cut the mint leaves into fine strips and fold them into the strawberries. Divide the <br>
+  strawberry puree between the glasses and top with the strawberry pieces. Or cut all the strawberries <br>
+  into pieces, mix them with sugar and lemon juice and distribute them among the glasses.
+
+</p>
+
+
+
+
+
+</div>
+
+  </div><!-- flexcontainer panna cotta end--> 
+
+
+
+
+  <div class="flex-container"><!-- flexcontainer oreo muffin --> 
+
+ 
+  
+
+    <div > <img  src="img/lana-mattice-gKrxflp1wv0-unsplash.jpg"  alt="oreomuffin" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionoreomuffin"> INGREDIENTS  </h5> 
+   
+  
+    <table>      
+      
+        
+        <tr>
+          <td>125g</td>
+          <td>soft butter</td>
+        </tr>
+        <tr>
+          <td>150g</td>
+          <td>sugar</td>
+        </tr>
+        <tr>
+          <td>1 pack</td>
+          <td>vanilla sugar</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>eggs</td>
+        </tr>
+        <tr>
+          <td>180g</td>
+          <td>flour</td>
+        </tr>
+        <tr>
+          <td>1 pinch</td>
+          <td>salt</td>
+        </tr>
+        <tr>
+          <td>2 tbsp</td>
+          <td>cocoa powder</td>
+        </tr>
+        <tr>
+          <td>2 tsp</td>
+          <td>baking powder</td>
+        </tr>
+        <tr>
+          <td>75 ml</td>
+          <td>milk</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>oreo cookies</td>
+        </tr>
+      
+    
+      
+        
+        <tr>
+          <th colspan="2">For the frosting:</th>
+        </tr>
+        <tr>
+          <td>200 g</td>
+          <td>cream</td>
+        </tr>
+        <tr>
+          <td>100 g</td>
+          <td>soft butter</td>
+        </tr>
+        <tr>
+          <td>200 g</td>
+          <td>cream cheese</td>
+        </tr>
+        <tr>
+          <td>150 g</td>
+          <td>powdered sugar</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>oreo cookies</td>
+        </tr>
+     
+    </table>
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">
+
+  For the dough, mix butter with both types of sugar. Stir in eggs. Preheat the oven to 180 degrees <br>
+  (fan oven: 160 degrees) . Mix the flour with salt, cocoa powder and baking powder and stir into the dough alternately<br>
+  with the milk. Roughly chop the Oreo cookies and fold them into the dough. Line the wells <br>
+  of a muffin tin with muffin cups. Use an ice cream scoop to distribute the dough among the molds.<br>
+  Bake in the preheated oven for approx. 25 minutes. Allow to cool completely.
+
+</p>
+
+
+<p class="textjustify">
+  For the frosting, whip the cream until stiff and set aside. Mix butter with cream cheese and powdered <br>
+  sugar. Separate the Oreo cookie halves from 6 cookies. Scrape out the white cream with a knife and <br>
+  add it to the butter and cream cheese cream.
+ 
+</p>
+
+
+<p class="textjustify">
+
+  Place the cookie halves from the 6 cookies in a freezer bag. Close it tightly and crumble the cookies <br>
+  with a rolling pin. Stir the fine crumbs into the butter and cream cheese cream. Finally fold in the <br>
+  cream. Place the cream in a piping bag fitted with a star nozzle. Tighten the top of the piping bag <br>
+  tightly. Then pipe a cream topping onto each cupcake.
+ 
+</p>
+
+<p class="textjustify">
+  For decoration, prepare the remaining 12 Oreo cookies and place an Oreo cookie on each cupcake. <br>
+   Refrigerate until serving.
+ 
+</p>
+
+
+
+</div>
+
+  </div><!-- flexcontainer oreo muffin end--> 
+
+
+  <div class="flex-container"><!-- flexcontainer blueberry lemon cake --> 
+
+ 
+  
+
+    <div > <img  src="img/natallia-nagorniakkopie.jpg"  alt=" blueberrylemoncake" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionblueberrylemoncake"> INGREDIENTS </h5> 
+   
+  
+
+      <table>
+
+       
+      <tbody>
+
+        <tr>
+          <td>226 g</td>
+          <td> unsalted butter</td>
+        </tr>
+
+        
+        <tr>
+          <td>250 g</td>
+          <td>granulated sugar </td>
+        </tr>
+
+        
+        <tr>
+          <td>100 g</td>
+          <td> brown sugar</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>eggs </td>
+        </tr>
+
+        
+        <tr>
+          <td>1 tbsp</td>
+          <td> pure vanilla extract</td>
+        </tr>
+
+        
+        <tr>
+          <td>354 g</td>
+          <td> flour</td>
+        </tr>
+
+
+
+        <tr>
+          <td>1 tbsp</td>
+          <td>baking powder </td>
+        </tr>
+
+        
+        <tr>
+          <td>1 tsp</td>
+          <td> salt</td>
+        </tr>
+
+        
+        <tr>
+          <td>240 ml</td>
+          <td> buttermilk</td>
+        </tr>
+
+
+
+        <tr>
+          <td>2 tbsp</td>
+          <td>lemonn zest </td>
+        </tr>
+
+        
+        <tr>
+          <td>120 ml </td>
+          <td>lemon juice </td>
+        </tr>
+
+        
+        <tr>
+          <td>210 g</td>
+          <td> blueberries</td>
+        </tr>
+
+        <tr>
+          <td>1</td>
+          <td> </td>
+        </tr>
+
+
+      
+
+       
+          <tr>
+            <th>For the frosting:  </th>
+            <th>  </th>
+          </tr>
+        
+
+        <tr>
+          <td>226 g</td>
+          <td>cream cheese </td>
+        </tr>
+
+        
+        <tr>
+          <td>113 g </td>
+          <td> unsalted butter</td>
+        </tr>
+
+        
+        <tr>
+          <td>420 g</td>
+          <td>confectioners’ sugar </td>
+        </tr>
+
+
+
+        <tr>
+          <td>15-30 ml</td>
+          <td>heavy cream </td>
+        </tr>
+
+        
+        <tr>
+          <td>1 tbsp</td>
+          <td>pure vanilla extract </td>
+        </tr>
+
+        
+        <tr>
+          <td></td>
+          <td>pinch salt </td>
+        </tr>
+
+
+
+
+
+       
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">
+
+  Make the cake:Using a handheld or stand mixer with paddle attachment, beat the butter on high until. <br>
+  Add granulated and brown sugars and beat on medium speed until creamed,about 2 minutes.Add  <br>
+  eggs and vanilla. Beat on medium speed until everything is completely combined, about 2  minutes.  <br>
+  Scrape down the sides and bottom of the bowl as needed.
+
+</p>
+
+
+
+
+<p class="textjustify">
+  In a large bowl, whisk together the flour, baking powder, and salt. Slowly add the dry ingredients <br>
+  to the wet ingredients. Beat on low speed for 5 seconds, then beat in the milk, lemon zest, and <br>
+  lemon juice *just* until combined. Toss the blueberries with 1 Tablespoon of flour and gently <br>
+  fold into the batter. Batter is extremely thick. Do not over-mix. Over-mixing will lead to a <br>
+  tough, dense textured crumb.
+ 
+</p>
+
+
+<p class="textjustify">
+  Spoon batter evenly into prepared cake pans. Bake for about 21-25 minutes or until a toothpick <br>
+   inserted in the center comes out clean. (8 inch cakes take closer to 25 minutes.) Remove from <br>
+    the oven and allow to cool completely in the pan before assembling and frosting.
+</p>
+
+
+<p class="textjustify">
+
+  Make the frosting: Using a handheld or stand mixer with a paddle attachment, beat cream cheese <br>
+  and butter together on medium speed until no lumps remain, about 3 full minutes. Add <br>
+  confectioners’ sugar, 1 Tablespoon cream, vanilla extract, and salt with the mixer running on <br>
+  low. Turn mixer to high speed and beat for 3 minutes. Add 1 more Tablespoon of cream to thin  <br>
+  out, if desired.
+
+</p>
+
+
+<p class="textjustify">
+
+  Assemble and frost: First, using a large serrated knife, trim the tops off the cake layers to <br>
+  create a flat surface. Place 1 layer on your cake stand. Evenly cover the top with cream cheese<br>
+  frosting. Top with 2nd layer, more frosting, then the third layer. Top with frosting and spread<br>
+  around the sides. The recipe doesn’t make a ton of frosting, just enough for a light frost. <br>
+  Top with blueberries or lemon garnish if desired. Refrigerate for at least 45 minutes before<br>
+   cutting or else the cake may fall apart as you cut.
+
+</p>
+
+
+
+</div>
+
+  </div><!-- flexcontainer  blueberry lemon cakend--> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="flex-container"><!-- flexcontainer mocha cupcakes --> 
+
+
+ 
+  
+
+    <div > <img  src="img/natallia-nagorniak-2CQSvxsWNzE-unsplash.jpg"  alt="mochacupcakes" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionmocha"> INGREDIENTS   </h5>   <p class="subtitle">for 12 cupcakes</p>   
+   
+  
+
+      <table>
+     
+      <tbody>
+        <tr>
+          <td>100 g</td>
+          <td>dark chocolate</td>
+        </tr>
+        <tr>
+          <td>300 g</td>
+          <td> butter</td>
+        </tr>
+        
+        
+        <tr>
+          <td>4 tsp</td>
+          <td>instant coffee</td>
+        </tr>
+
+        <tr>
+          <td>90 g</td>
+          <td>flour</td>
+        </tr>
+
+
+        <tr>
+          <td>1 tbsp</td>
+          <td>cocoa powder</td>
+        </tr>
+
+        <tr>
+          <td>80 g</td>
+          <td>sugar</td>
+        </tr>
+
+
+        <tr>
+          <td>1 bag </td>
+          <td>vanilla sugar</td>
+        </tr>
+
+        <tr>
+          <td>1 tsp </td>
+          <td>baking powder</td>
+        </tr>
+
+
+        <tr>
+          <td> </td>
+          <td>salt</td>
+        </tr>
+
+        <tr>
+          <td>3 </td>
+          <td>eggs</td>
+        </tr>
+        <tr>
+
+          <td> 150 g</td>
+          <td>cream cheese</td>
+        </tr>
+
+        <tr>
+          <td>80 g </td>
+          <td>powdered sugar</td>
+        </tr>
+
+
+        <tr>
+          <td>16-24 </td>
+          <td>Chocolate mocha beans </td>
+        </tr>
+
+
+  
+        
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">
+  Crush the chocolate and melt it in a saucepan with 180 g butter and 2 teaspoons of instant coffee over low <br>
+  heat while stirring. Remove from heat and let cool slightly.Preheat the oven to 180°. Mix flour, cocoa, sugar, <br>
+  vanilla sugar, baking powder and a pinch of salt. First stir the eggs and then the flour mixture into the  <br>
+  chocolate mixture.
+
+
+</p>
+
+
+
+<p class="textjustify">
+  Line a muffin tray with 12 paper cases, spread the dough on them and bake in a hot oven(centre,fan oven 160°) <br>
+   for 20-25 minutes.For the mocha cream, mix the remaining instant coffee with 1 tablespoon of hot water and <br>
+   allow to cool. Beat the remaining butter with the powdered sugar until fluffy. Gradually stir in the cream <br>
+   cheese and finally the coffee. Refrigerate the finished cream until ready to use.
+</p>
+
+<p class="textjustify">
+  Take the cupcakes out of the oven, let them cool slightly, remove them from the tin and let them cool <br>
+   completely. Fill the mocha cream into a piping bag with a star nozzle and pipe it onto the cakes. <br>
+   Garnish with mocha beans.
+</p>
+
+</div>
+
+  </div><!-- flexcontainer mocha cupcakes end--> 
+
+
+
+<div class="flex-container"><!-- flexcontainer peanut butter cups  --> 
+    
+
+ 
+  
+
+    <div > <img  src="img/heather-barnes-xatIo9Ksfb0-unsplash.jpg"  alt="peanutcup" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionbuttercup"> INGREDIENTS  </h5> 
+   
+  
+
+      <table>
+     
+      <tbody>
+        <tr>
+          <td>80 g</td>
+          <td>butter</td>
+        </tr>
+        <tr>
+          <td>90 g</td>
+          <td> powdered sugar</td>
+        </tr>
+        
+        
+        <tr>
+          <td>175 g</td>
+          <td>peanut butter with pieces</td>
+        </tr>
+
+        <tr>
+          <td> 8</td>
+          <td>biscuits</td>
+        </tr>
+
+
+        <tr>
+          <td>250 g</td>
+          <td>couverture, whole milk</td>
+        </tr>
+
+        <tr>
+          <td>1 tbsp</td>
+          <td>vegetable oil, neutral</td>
+        </tr>
+
+
+        <tr>
+          <td> </td>
+          <td>paper cases </td>
+        </tr>
+
+  
+        
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">
+  Melt butter, powdered sugar and peanut butter in a saucepan over low heat until thick. Remove from heat. &nbsp;<br>
+  Crush the cookies (e.g. put them in a freezer bag and roll them into small pieces with a rolling pin), <br>
+  add them to the peanut mixture and stir.
+
+</p>
+
+
+
+<p class="textjustify">
+
+  Pour the still warm and liquid mixture into the paper molds about 1 cm high (two paper molds, one <br>
+  inside the other, ensure greater stability) and let the “blanks” solidify in the freezer for about <br>
+   half an hour. For the coating, melt the couverture in a water bath according to the package <br>
+   instructions and finally add 1 tablespoon of neutral vegetable oil.
+
+</p>
+
+<p class="textjustify">
+  Remove the cooled peanut mixture from the paper molds and pour approx. 1 - 1.5 teaspoons of liquid <br>
+   couverture into the same paper molds and, by turning the molds slightly at an angle, let the <br>
+   couverture flow up the edge (as high as the peanut filling). Place the peanut blank on the <br>
+   still liquid chocolate and cover the top with chocolate.
+
+</p>
+
+</div>
+
+  </div><!-- flexcontainer peanut butter cups end--> 
+
+
+
+  <div class="flex-container"><!-- flexcontainer blueberry muffin cups  --> 
+    
+
+ 
+  
+
+    <div > <img  src="img/natallia-nagorniak-dvd1NSoteHg-unsplash(1).jpg"  alt="blueberrymuffin" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionblueberrymuffin"> INGREDIENTS </h5>  <p class="subtitle">for 12 muffins</p>  
+   
+  
+
+      <table>
+     
+      <tbody>
+        
+          <tr>
+            <th>For the dough:  </th>
+            <th> </th>
+          </tr>
+        
+        <tr>
+          <td>250 g </td>
+          <td>blueberry</td>
+        </tr>
+        <tr>
+          <td>200 g</td>
+          <td> wheat flour</td>
+        </tr>
+        
+        
+        <tr>
+          <td>1 tsp</td>
+          <td>Dr. Oetker Original Backin</td>
+        </tr>
+
+        <tr>
+          <td> 125 g</td>
+          <td>sugar</td>
+        </tr>
+
+
+        <tr>
+          <td>1 pack</td>
+          <td> vanilla sugar</td>
+        </tr>
+
+        <tr>
+          <td>½ tsp</td>
+          <td>salt</td>
+        </tr>
+
+
+        <tr>
+          <td>1 pack </td>
+          <td> lemon peel</td>
+        </tr>
+
+        <tr>
+          <td> 100 g</td>
+          <td>butter </td>
+        </tr>
+
+        <tr>
+          <td>2 </td>
+          <td>eggs</td>
+        </tr>
+
+        <tr>
+          <td>2 tbsp </td>
+          <td> milk</td>
+        </tr>
+
+       
+          <tr>
+            <th>Topping:  </th>
+            <th> </th>
+          </tr>
+       
+
+
+        <tr>
+          <td>200 g </td>
+          <td>cream cheese</td>
+        </tr>
+
+        <tr>
+          <td>2 tbsp </td>
+          <td>sugar </td>
+        </tr>
+
+
+        <tr>
+          <td> 1 pack</td>
+          <td> vanilla sugar</td>
+        </tr>
+
+        <tr>
+          <td>2 tbsp </td>
+          <td>lemon juice </td>
+        </tr>
+
+        <tr>
+          <td> 200 g</td>
+          <td>cold whipped cream</td>
+        </tr>
+
+        <tr>
+          <td> 1 pack</td>
+          <td>cream stiff </td>
+        </tr>
+
+      
+  
+        
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">
+
+  Mix the flour with Backin in a mixing bowl. Add the remaining ingredients, except the berries,  <br>
+  and process everything with a mixer (stirrers) briefly on the lowest setting and then on the  <br>
+  highest setting for 2 minutes to form a smooth dough. Gently fold the blueberries into the  <br>
+  batter. Divide the dough into the molds using 2 tablespoons. Place the pan on the rack in <br>
+  the oven. 
+  
+
+</p>
+
+<p class="textjustify">
+  Mix cream cheese, sugar, vanilla sugar and lemon juice in a mixing bowl. Beat the cream  <br>
+  until stiff and fold into the cream cheese. Fill the cream into a piping bag with a star <br>
+  nozzle (Ø 11 mm) and pipe it onto the muffins. Scatter the remaining blueberries on top. <br>
+  Place blueberry cupcakes in the refrigerator until ready to serve.
+
+</p>
+
+
+
+
+
+
+</div>
+
+  </div><!-- flexcontainer blueberr ymuffin end--> 
+
+
+
+  <div class="flex-container"><!-- flexcontainer elderberry lemon cake  --> 
+    
+
+ 
+  
+
+    <div > <img  src="img/alexandrakop.jpg"  alt="elderberry lemon cake" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionelderberry"> INGREDIENTS </h5> 
+   
+  
+
+      <table>
+     
+      <tbody>
+
+        
+      
+       
+        <tr>
+          <td> </td>
+          <td>oil, for greasing</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td> eggs</td>
+        </tr>
+        
+        
+        <tr>
+          <td>100 g</td>
+          <td> yoghurt</td>
+        </tr>
+
+        <tr>
+          <td> 50 ml</td>
+          <td>milk</td>
+        </tr>
+
+
+        <tr>
+          <td>450 g</td>
+          <td> butter</td>
+        </tr>
+
+        <tr>
+          <td>450 g</td>
+          <td> sugar</td>
+        </tr>
+
+
+        <tr>
+          <td>450g </td>
+          <td> flour</td>
+        </tr>
+
+        <tr>
+          <td> </td>
+          <td> zest of lemon,plus juice </td>
+        </tr>
+
+        <tr>
+          <td>3 tbsp </td>
+          <td>elderflower cordial</td>
+        </tr>
+
+      
+       
+        
+          <tr>
+            <th>For the icing:   </th>
+            <th> </th>
+          </tr>
+      
+
+
+        <tr>
+          <td>250g </td>
+          <td>butter</td>
+        </tr>
+
+        <tr>
+          <td>300g</td>
+          <td>cream cheese </td>
+        </tr>
+
+
+        <tr>
+          <td> </td>
+          <td> zest of 1 lemon</td>
+        </tr>
+
+        <tr>
+          <td> </td>
+          <td>flowers to decorate </td>
+        </tr>
+
+    
+        
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+
+
+<p class="textjustify">
+  In a jug, whisk eggs, yogurt and milk.Beat the butter and sugar together in a large bowl, using an <br>
+  electric hand whisk.When you have a light and fluffy mixture, add the flour, liquid in the jug and <br>
+  the lemon zest. Mix again until smooth.Divide the cake mixture between the tins, level the surfaces <br>
+  and bake for 40 mins.
+
+</p>
+
+<p class="textjustify">
+  Mix the lemon juice and elderflower cordial. When the cakes are cooked, poke all over the surface <br>
+  with a cocktail stick then spoon the lemon and elderflower syrup over the cakes. Leave to cool in <br>
+   the tins. Once cool, you can wrap in cling film and keep for 3 days before icing. 
+</p>
+
+
+<p class="textjustify">
+  To make the icing, beat the butter until smooth with an electric hand whisk. Add half the icing <br>
+  sugar, use a spatula to mash the mixture together(this will help to prevent an icing sugar cloud) <br>
+  then whisk again. Add the remaining icing sugar, cream cheese and lemon zest, mash again, then <br>
+  whisk again until smooth.
+  
+
+</p>
+
+<p class="textjustify"> 
+  Stack the cakes on a cake stand with plenty of icing between each layer. Pile most of the <br>
+  remaining icing on top, then use a palette knife to spread it across the top and down the <br>
+  sides, covering the cake in swirls (don’t worry about it looking too perfect). Add the final <br>
+   bit of icing to the top and use it to cover any patches where the cake is poking through. <br>
+    Decorate with fresh flowers.
+  
+
+</p>
+
+
+
+
+</div>
+
+  </div><!-- flexcontainer elderberry lemon cake  end--> 
+
+
+  <div class="flex-container"><!-- flexcontainer  Strawberry Mille-feuille --> 
+
+ 
+  
+
+    <div > <img  src="img/diliarakopie.jpg"  alt="Strawberry Mille-feuille" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionMillefeuille"> INGREDIENTS   </h5> 
+   
+  
+
+      <table>
+
+        
+     
+      
+        <tr>
+          <td></td>
+          <td>1 Sheet Puff Pastry</td>
+        
+        </tr>
+
+        
+          <tr>
+           
+          <th>For the pastry cream: </th>
+          <th> </th>
+          </tr>
+        
+
+        <tr>
+          <td>¾</td>
+          <td> cup of whole milk</td>
+        </tr>
+        
+        
+        <tr>
+          <td>2  </td>
+          <td>large egg yolks</td>
+        </tr>
+
+          
+        <tr>
+          <td>½  </td>
+          <td>vanilla bean</td>
+        </tr>
+
+          
+        <tr>
+          <td> 2 tbsp</td>
+          <td>corn starch</td>
+        </tr>
+
+          
+        <tr>
+          <td>1 tbsp </td>
+          <td>unsalted butter</td>
+        </tr>
+
+
+          
+        <tr>
+          <td>⅓ cup </td>
+          <td>heavy whipping cream</td>
+        </tr>
+
+
+          
+        <tr>
+          <td>½ cup </td>
+          <td> granulated sugar</td>
+        </tr>
+
+        
+          <tr>
+            <th>Roasted Strawberry filling:</th>
+            <th></th>
+          </tr>
+        
+     
+          
+        <tr>
+          <td>1 cup  </td>
+          <td>fresh strawberries</td>
+        </tr>
+
+        <tr>
+          <td>2 tbsp </td>
+          <td>granulated sugar</td>
+        </tr>
+
+
+        
+
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+
+
+<p class="textjustify">
+  Place strawberries on baking sheet & sprinkle sugar,toss to combine.Roast strawberries   <br>
+  for 15 minutes or until softened and syrupy. Cool completely.Thaw your puff pastry on <br>
+  the counter for about 30 minutes, meanwhile, prepare the pastry cream.
+
+</p>
+
+
+<p class="textjustify">
+  In a medium-sized bowl, whisk sugar & cornstarch until well-combined.Add eggyolks <br>
+  and mix well. Set aside. In a medium saucepan, heat milk and vanilla until simmering. <br>
+  Slowly add the heated milk mixture to the egg yolks, whisking constantly, and ensure <br>
+  the egg yolks do not curdle. Return the mixture to the saucepan. On medium heat,<br>
+  whisking constantly, for an additional 2-3 minutes, or until mixture is thick and <br>
+  bubbly. Remove from heat and whisk in butter. Strain the mixture into a shallow dish <br>
+  and cover directly with plastic wrap. Refrigerate until fully chilled.
+
+</p>
+
+
+<p class="textjustify">
+  Place the puff pastry onto a lightly floured surface. Roll out to about 12”x12” and <br>
+  use a pizza cutter to cut 2x4 inch rectangles.Line a baking sheet with parchment <br>
+  paper then place the rectangles about 2 inches apart. Place another sheet of <br>
+  parchment on top then cover with another baking sheet.Bake for about 15 minutes <br>
+
+</p>
+
+
+<p class="textjustify">
+  With a hand mixer, whip the heavy whipping cream. Once the pastry cream is fully <br>
+  cooled, fold the whipped cream into the pastry cream gently to combine. Transfer <br>
+  the mixture to a pastry bag and snip a ¼-inch opening from the end.Place one <br>
+  layer of puff pastry on a platter. Pipe dots of filling all over the pastry,<br>
+  then top with a tablespoon of strawberry filling. Then top with another layer<br>
+  of the rectangle. Repeat the process one more time. Dust the latest sheet with <br>
+  powdered sugar.
+
+</p>
+
+
+
+</div>
+
+  </div><!-- flexcontainer Strawberry Mille-feuille end--> 
+
+
+
+
+
+  <div class="flex-container"><!-- flexcontainer drip cake  --> 
+    
+
+ 
+  
+
+    <div > <img  src="img/american-heritage-chocolate-vdx5hPQhXFk-unsplash.jpg"  alt="Drip Cake" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionDripCake"> INGREDIENTS  </h5> 
+   
+  
+
+      <table>
+
+       
+          <tr>
+            <th>For the dough: </th>
+            <th> </th>
+          </tr>
+     
+     
+        
+        <tr>
+          <td>250 g </td>
+          <td>margarine</td>
+        </tr>
+
+
+        <tr>
+          <td>200 g</td>
+          <td> sugar</td>
+        </tr>
+
+        <tr>
+          <td>1 pack</td>
+          <td>vanilla sugar </td>
+        </tr>
+        
+
+        <tr>
+          <td>5</td>
+          <td>eggs </td>
+        </tr>
+        
+
+        <tr>
+          <td>250 g</td>
+          <td>wheat flour </td>
+        </tr>
+
+        
+        <tr>
+          <td>2 teaspoons</td>
+          <td>baking soda </td>
+        </tr>
+
+        <tr>
+          <td>2 teaspoons</td>
+          <td>baking cocoa </td>
+        </tr>
+        
+
+        <tr>
+          <td>75 ml</td>
+          <td>milk</td>
+        </tr>
+        
+
+        <tr>
+          <td>100 g</td>
+          <td>dark chocolate</td>
+        </tr>
+
+
+        
+          <tr>
+            <th>For the filling:   </th>
+            <th>  </th>
+          </tr>
+    
+        
+        <tr>
+          <td>100 g</td>
+          <td> cream</td>
+        </tr>
+
+        <tr>
+          <td>400g</td>
+          <td>cream cheese </td>
+        </tr>
+        
+
+        <tr>
+          <td>125g</td>
+          <td>  soft butter </td>
+        </tr>
+        
+
+        <tr>
+          <td>100 g</td>
+          <td> powdered sugar</td>
+        </tr>
+
+        
+        <tr>
+          <td>1 teaspoon</td>
+          <td>vanilla extract </td>
+        </tr>
+
+        
+          <tr>
+            <th>For the topping:  </th>
+            <th> </th>
+          </tr>
+       
+
+        <tr>
+          <td>100 g</td>
+          <td>cream </td>
+        </tr>
+        
+
+        <tr>
+          <td>60g</td>
+          <td>dark chocolate </td>
+        </tr>
+        
+
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+
+
+<p class="textjustify">
+  For the dough, mix margarine with sugar and vanilla sugar. Gradually stir in eggs. Mix flour with baking <br>
+  powder and cocoa powder. Add to the margarine-sugar mixture alternately with the milk and stir in. <br>
+  Finely chop the dark chocolate and fold it into the dough.
+
+</p>
+
+<p class="textjustify">
+  Preheat the oven to 180 degrees top/bottom heat (fan oven: 160 degrees). Grease a springform pan <br>
+  (Ø 20 cm), then fill it with the dough and smooth it out. Bake in the preheated oven for approx. <br>
+  60 minutes. Allow to cool completely, then remove from the mold.
+
+</p>
+
+
+<p class="textjustify">
+  For the filling, whip the cream until stiff and refrigerate until ready to use. Beat cream cheese <br>
+  with butter, powdered sugar and vanilla extract for several minutes until creamy. It is important <br>
+  that the butter and cream cheese are at room temperature so that the ingredients combine well and  <br>
+  a smooth cream is created. Finally, fold in the cooled, whipped cream.
+
+</p>
+
+<p class="textjustify">
+  Cut the dough into three equal-sized layers. Place the first layer on the cake plate and add 2-3 <br>
+  tablespoons of cream on top. Smooth it out and lay down the next floor. Continue like this until <br>
+  all the floors are on top of each other. Now spread the entire cake with the remaining cream. If <br>
+  possible, the floors should no longer be visible, especially at the edge. Refrigerate the cake <br>
+  for at least 30 minutes.
+
+</p>
+
+<p class="textjustify">
+  In the meantime, put the cream in a saucepan for the topping. Roughly chop the dark chocolate, <br>
+  bring the cream to the boil briefly, then add the chocolate to the cream. Remove pan from heat <br>
+  and stir frequently until chocolate has melted. Now let the chocolate sauce cool down until it <br>
+  is only lukewarm but still liquid (approx. 20-30 minutes). <br>
+  When the sauce has cooled, take the cake out of the fridge. Use a teaspoon to drizzle some of <br>
+  the chocolate sauce down the edge of the cake. Continue until chocolate drops run down the <br>
+  entire edge of the cake. Now cover the top of the cake with chocolate.
+</p>
+
+
+
+
+
+
+
+</div>
+
+  </div><!-- flexcontainer drip cake end--> 
+
+  <div class="flex-container"><!-- flexcontainer lemon tartles  --> 
+    
+
+ 
+  
+
+    <div > <img  src="img/kim-danielskopie.jpg"  alt="lemon tartles" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionlemontart"> INGREDIENTS </h5>  <p class="subtitle"> for 12 tartlets</p>   
+   
+  
+
+      <table>
+
+  
+
+        <tr>
+          <th>For the dough: &nbsp;  </th>
+          <th>   </th>
+        </tr>
+        
+        <tr>
+          <td>195 g</td>
+          <td>flour </td>
+        </tr>
+
+        <tr>
+          <td>2 ½ tbsp</td>
+          <td>sugar </td>
+        </tr>
+
+        <tr>
+          <td>113 g</td>
+          <td>unsalted butter</td>
+        </tr>
+
+
+        <tr>
+          <td>1</td>
+          <td>egg yolk</td>
+        </tr>
+       
+        
+        <tr>
+          <td>1 – 2 tbsp</td>
+          <td> iced water</td>
+        </tr>
+
+        
+          <tr>
+            <th>For the lemon filling:   </th>
+            <th></th>
+          </tr>
+        
+
+        <tr>
+          <td>100 g </td>
+          <td>white granulated sugar</td>
+        </tr>
+
+
+        <tr>
+          <td>25 g</td>
+          <td>cornflour </td>
+        </tr>
+
+
+
+        <tr>
+          <td></td>
+          <td>pinch of salt</td>
+        </tr>
+
+        <tr>
+          <td>125 ml</td>
+          <td>lemon juice</td>
+        </tr>
+
+
+        <tr>
+          <td>160 ml</td>
+          <td>water </td>
+        </tr>
+
+        <tr>
+          <td>28 g</td>
+          <td>unsalted butter</td>
+        </tr>
+
+
+        <tr>
+          <td></td>
+          <td> grated zest of lemon</td>
+        </tr>
+
+        <tr>
+          <td>3 </td>
+          <td>egg yolks</td>
+        </tr>
+
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+
+
+  <p class="textjustify">
+    Place the flour, icing sugar and chilled butter into the bowl of a food processor.Blitz to <br>
+    crumb-like texture.Add the egg yolk and blitz again until well combined. With the processor <br>
+    running, slowly drizzle in the water, just enough until it starts clumping together.Pull the <br>
+    pastry dough into a smooth ball (try not to knead too much). Roll out between two sheets of  <br>
+    baking paper to 3mm thick, then place on a tray or flat surface in the fridge to chill <br>
+    for ½ an hour. 
+  
+  </p>
+  
+
+
+
+
+<p class="textjustify">
+Preheat oven to 180C / 350F / 160C fan forced.Prick the bases of the tartlet shells a few  <br>
+times with a fork. Place a cupcake case or piece of baking paper into each, pressing it to <br>
+the pastry at the bottom, and fill with rice (or pie weights).Transfer to the preheated oven  <br>
+and bake for 15 minutes then remove the cupcake cases and bake a further 5 minutes.<br>
+Set aside 
+</p>
+
+
+
+<p class="textjustify">
+  FOR THE LEMON CURD
+</p>
+
+
+
+
+<p class="textjustify">
+
+  Combine sugar, cornflour and salt in a saucepan, then pour in the lemon juice and water. <br>
+  Whisk well to combine. Cook, whisking regularly so you don’t get lumps, until you have <br>
+  a thick gel with big bubbles popping all over the surface.Take it off the heat and <br>
+  add butter and zest, mix until melted and fully combined. <br>
+  While whisking vigorously, tip in the yolks and whisk well until fully combined 
+  
+</p>
+
+
+<p class="textjustify">
+
+  Place the saucepan back over the heat and cook for a further minute whisking  <br>
+  frequently.Divide the curd evenly among the cases – each should be full pretty much to <br>
+  the top. Bake a further 5-8 minutes until the curd is level and just starting to bubble. <br>
+  Let them cool 15 minutes in the muffin tin, then gently give each one a twist and lift <br>
+  it out. Finish cooling on a wire rack. 
+
+</p>
+
+
+</div>
+
+  </div><!-- flexcontainer lemon tartles end-->
+
+
+
+
+
+
+
+
+  
+  <div class="flex-container"><!-- flexcontainer chocolate brownies --> 
+
+ 
+  
+
+    <div > <img  src="img/larissaKopie.jpg"  alt="chocolatebrownies" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionbrownie"> INGREDIENTS  </h5> 
+   
+  
+
+      <table>
+     
+      <tbody>
+
+       
+        <tr>
+          <td>100 g</td>
+          <td>butter</td>
+        </tr>
+        <tr>
+          <td>70 g</td>
+          <td> dark chocolate</td>
+        </tr>
+        
+        <tr>
+          <td>120 g</td>
+          <td>xylitol</td>
+        </tr>
+
+        <tr>
+          <td>150 g</td>
+          <td>almond flour</td>
+        </tr>
+
+        <tr>
+          <td>50 g</td>
+          <td>cocoa</td>
+        </tr>
+        
+        <tr>
+          <td>1 teaspoon</td>
+          <td>baking powder</td>
+        </tr>
+
+        <tr>
+          <td>1 pinch</td>
+          <td>salt</td>
+        </tr>
+
+        <tr>
+          <td>5</td>
+          <td>eggs</td>
+        </tr>
+        
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+
+
+<p class="textjustify">
+  Melt butter and chocolate over a hot water bath. Stir in xylitol and allow to cool. Preheat the oven to 180 °C top/ &nbsp; <br> 
+  bottom heat.
+
+</p>
+
+
+
+
+<p class="textjustify">
+  Mix almond flour with cocoa, baking powder and salt
+
+</p>
+
+<p class="textjustify">
+  Add eggs to the chocolate-butter mixture and beat them in. Stir in the flour until <br>
+  the dough just comes together. Bake in a hot oven for about 18 minutes.
+</p>
+
+
+</div>
+
+  </div><!-- flexcontainer chocolate brownies end--> 
+
+
+
+  <div class="flex-container"><!-- flexcontainer blueberry bread --> 
+
+ 
+  
+
+    <div > <img  src="img/joyfuKopie.jpg"  alt="bread" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionbread"> INGREDIENTS   </h5> 
+   
+  
+
+      <table>
+    
+      <tbody>
+        <tr>
+          <td>2</td>
+          <td>large eggs</td>
+        </tr>
+        <tr>
+          <td>1/4 cup (55 g) </td>
+          <td>plain 2% Greek yogurt</td>
+        </tr>
+        
+        <tr>
+          <td>2</td>
+          <td>medium-size, bananas, mashed </td>
+        </tr>
+
+        <tr>
+          <td>6 Tbsp (75 g) </td>
+          <td>coconut palm sugar</td>
+        </tr>
+
+        <tr>
+          <td>1 tsp </td>
+          <td>vanilla extract</td>
+        </tr>
+
+        <tr>
+          <td>1 tsp	</td>
+          <td>baking soda</td>
+        </tr>
+
+        <tr>
+          <td>1/2 tsp </td>
+          <td>ground cinnamon</td>
+        </tr>
+
+        <tr>
+          <td>1/4 </td>
+          <td>salt</td>
+        </tr>
+
+        <tr>
+          <td>1 1/2 cup (180 g) </td>
+          <td> whole wheat pastry flour</td>
+        </tr>
+
+        <tr>
+          <td>1 cup (140 g)</td>
+          <td> blueberries, fresh or frozen</td>
+        </tr>
+
+        
+
+
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+  <p class="textjustify">Preheat your oven to 350ºF (176ºC), and lightly grease a 9 x 5 (23cm 
+    x 13cm) bread pan. 
+  
+ </p>
+
+
+
+<p class="textjustify">
+  In a large mixing bowl, lightly beat the eggs until the yolks break apart. Whisk in the <br>
+  yogurt, bananas, sugar, vanilla, baking soda, cinnamon, and salt, mixing until smooth. <br>
+  Spoon in the flour and gently fold it in until just combined. Toss the blueberries in 1<br>
+  Tbsp (7 g) of flour to prevent them from bleeding or sinking to the bottom of the <br>
+  muffins, and gently fold them into the batter.
+</p>
+
+<p class="textjustify">
+
+  Pour the batter into the prepared loaf pan, spreading it out evenly. Bake for <br>
+  45 minutes, or until a toothpick inserted into the center comes out clean.
+
+</p>
+
+<p class="textjustify">
+  Remove the bread from the oven and let it cool in the pan for about 10 minutes<br>
+  before transferring it to a cooling rack to cool completely. Store in an airtight<br>
+  container at room temperature for up to 5 days, or freeze for up to 3 months.
+
+</p>
+
+
+
+
+</div>
+
+  </div><!-- flexcontainer blueberry bread end--> 
+
+
+
+  <div class="flex-container"><!-- flexcontainer chocolate raspberry cake --> 
+
+ 
+  
+
+    <div > <img  src="img/uliana-ko.jpg"  alt="chocolateraspberrycake" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionccake"> INGREDIENTS  </h5> 
+   
+  
+
+      <table>
+     
+       
+      
+      <tbody>
+
+        <tr>
+          <th>For the cake:  </th>
+          <th> </th>
+        </tr>
+        <tr>
+          <td>1 3/4 c.</td>
+          <td>granulated sugar</td>
+        </tr>
+        <tr>
+          <td>1 3/4 c.</td>
+          <td>all-purpose flour</td>
+        </tr>
+        
+        <tr>
+          <td>3/4 c.</td>
+          <td> cocoa powder </td>
+        </tr>
+
+        <tr>
+          <td>1/2 tsp.</td>
+          <td>kosher salt</td>
+        </tr>
+
+        <tr>
+          <td>1 1/2 tsp.</td>
+          <td>baking soda
+          </td>
+        </tr>
+
+        <tr>
+          <td>1 1/2 tsp.</td>
+          <td>baking powder</td>
+        </tr>
+
+        <tr>
+          <td>2 </td>
+          <td>large eggs, lightly beaten</td>
+        </tr>
+
+        <tr>
+          <td>1 tsp.</td>
+          <td> vanilla extract</td>
+        </tr>
+
+        <tr>
+          <td>1/2 c.</td>
+          <td>vegetable oil</td>
+        </tr>
+
+        <tr>
+          <td>3/4 c.</td>
+          <td>milk</td>
+        </tr>
+
+        <tr>
+          <td>3/4 c.</td>
+          <td>hot (not boiling) water</td>
+        </tr>
+
+        <tr>
+          <td>1/4 c.</td>
+          <td>raspberry preserves</td>
+        </tr>
+
+
+        <tr>
+          <td>2 6-oz.</td>
+          <td> fresh raspberries, divided</td>
+        </tr>
+
+        <tr>
+          <td>2 tbsp.</td>
+          <td>chopped roasted pistachios</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>Shaved chocolate curls, opt</td>
+        </tr>
+
+        
+          <tr>
+            <th>For the buttercream: </th>
+            <th> </th>
+          </tr>
+       
+
+        <tr>
+          <td>1 1/2 c.</td>
+          <td>unsalted butter</td>
+        </tr>
+
+        <tr>
+          <td>4 1/2 c.</td>
+          <td>confectioners' sugar</td>
+        </tr>
+
+        <tr>
+          <td>2/3 c. </td>
+          <td>cocoa powder</td>
+        </tr>
+
+        <tr>
+          <td>1/3 c.</td>
+          <td>heavy whipping cream</td>
+        </tr>
+
+        <tr>
+          <td>1 1/2 tsp.</td>
+          <td>vanilla extract</td>
+        </tr>
+
+        <tr>
+          <td>1/4 tsp</td>
+          <td> kosher salt</td>
+        </tr>
+
+
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">
+  For the cake: Preheat the oven to 350°. Line 8-inch round baking pans with parchment<br>
+  paper, then spray with nonstick baking spray with flour. <br>
+  (Alternatively, butter and flour the cake pans.)
+</p>
+
+
+
+
+<p class="textjustify">
+
+  Whisk together the sugar, flour, cocoa powder, salt, baking soda, and baking powder in <br>
+  a large bowl. 
+
+</p>
+
+<p class="textjustify">
+
+  Whisk together the eggs, vanilla, oil, and milk in a medium bowl. Add the egg mixture <br>
+  to the flour mixture and whisk well to combine. Scrape down the sides and bottom of <br>
+  the bowl to be sure all the ingredients get mixed together and there are no clumps of <br>
+  batter. Add the hot water and whisk well to combine (the batter will be thin and soupy).
+
+
+</p>
+
+<p class="textjustify">
+  Pour the batter into the prepared pans and bake for 25 to 30 minutes, or until a<br>
+  wooden pick inserted near the center comes out clean. Cool in the pans for 10 <br>
+  minutes, then remove and cool completely on a wire rack.
+
+
+</p>
+
+<p class="textjustify">
+
+  For the buttercream: Beat the butter on medium speed in the mixing bowl of a <br>
+  stand mixer fitted with a paddle attachment until creamy, about 2 minutes. <br>
+  Add the confectioners' sugar and beat until smooth. Sift the cocoa powder <br>
+  over the buttercream then beat on low speed until all the cocoa is absorbed.<br>
+  Add the heavy cream, vanilla extract and salt and beat on medium until <br>
+  mixture is lightened and creamy, about 2 more minutes. 
+
+</p>
+
+<p class="textjustify">
+
+  To assemble the cake, spread the raspberry preserves over 1 cake layer. <br>
+  Spread about 1 cup of buttercream over the preserves. Scatter half of <br>
+  the raspberries onto the buttercream and press them gently into the <br>
+  cream. Place the other layer upside down on top of the buttercream<br>
+  and raspberries. Spread the remaining buttercream onto the sides <br>
+  and top of the cake
+
+</p>
+
+<p class="textjustify">
+  Decorate the top of the cake with the remaining raspberries.Sprinkle with <br>
+  pistachios and shave chocolate over top, if you like. Refrigerate<br>
+  or store in a cool place until serving.
+
+
+</p>
+
+
+
+</div>
+
+  </div><!-- flexcontainer chocolate rasbperry  cake end--> 
+
+
+
+  <div class="flex-container"><!-- flexcontainer blueberry cheesecake  --> 
+
+ 
+  
+
+    <div > <img  src="img/monikaKopie.jpg"  alt="blueberry cheesecake " >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionbccake"> INGREDIENTS  </h5> 
+   
+  
+
+      <table>
+      
+     
+
+        <tr>
+          <th>For the puree:  </th>
+          <th> </th>
+        </tr>
+
+        <tr>
+          <td>2 c.</td>
+          <td>blueberries</td>
+        </tr>
+        <tr>
+          <td>2 tbsp.</td>
+          <td>granulated sugar</td>
+        </tr>
+        
+        <tr>
+          <td>2 tsp. </td>
+          <td>lemon juice</td>
+        </tr>
+
+        
+          <tr>
+            <th>For the crust:</th>
+            <th> </th>
+          </tr>
+       
+
+        <tr>
+          <td> 9 </td>
+          <td>graham crackers, finely crushed</td>
+        </tr>
+
+        <tr>
+          <td>5 tbsp. </td>
+          <td>butter, melted</td>
+        </tr>
+
+        <tr>
+          <td> 1/4 c.</td>
+          <td>granulated sugar</td>
+        </tr>
+
+        
+          <tr>
+            <th>For the cake:</th>
+            <th> </th>
+          </tr>
+      
+
+
+
+        <tr>
+          <td>4 blocks </td>
+          <td> cream cheese, softened</td>
+        </tr>
+
+        <tr>
+          <td>1 c. </td>
+          <td>granulated sugar</td>
+        </tr>
+
+        <tr>
+          <td>2 </td>
+          <td>large eggs</td>
+        </tr>
+
+        <tr>
+          <td>1 tsp. </td>
+          <td>pure vanilla extract</td>
+        </tr>
+
+        <tr>
+          <td> 1/4 c.</td>
+          <td> sour cream</td>
+        </tr>
+
+        <tr>
+          <td>2 tbsp. </td>
+          <td>all-purpose flour</td>
+        </tr>
+
+        <tr>
+          <td>1/4 tsp. </td>
+          <td>kosher salt</td>
+        </tr>
+
+        <tr>
+          <td>1 c. </td>
+          <td>blueberry puree</td>
+        </tr>
+
+          <tr>
+            <th>For the topping: </th>
+            <th> </th>
+          </tr>
+        
+
+
+
+        <tr>
+          <td>-</td>
+          <td>Whipped cream</td>
+         
+        </tr>
+
+        <tr>
+          <td>-</td>
+          <td>Blueberries</td>
+        </tr>
+
+     
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+
+<p class="textjustify">Preheat oven to 325°.In a small food processor,blend blueberries until no large chunks<br>
+      remain. 
+  
+</p>
+
+<p class="textjustify">In a small saucepan over medium heat, add blueberry puree, sugar, and<br>
+  lemon juice. Bring to a boil, then reduce heat and let simmer until slightly reduced,<br>
+  stirring occasionally, 10 minutes. Let cool to room temperature.
+
+
+</p>
+
+<p class="textjustify">
+  Make crust: In a large bowl, mix together graham cracker crumbs, melted butter, and<br>
+  sugar, until mixture resembles wet sand. Press into bottom and up sides of an 8" or <br>
+  9" springform pan.
+  
+</p>
+
+<p class="textjustify">
+  Make cheesecake: In a large bowl using a hand mixer (or the bowl of a stand mixer),<br>
+  beat cream cheese and sugar until no lumps remain. Add eggs, one at a time, then <br>
+  stir in vanilla and sour cream. Add flour and salt and beat until just combined.<br>
+  Fold in blueberry puree. 
+  
+</p>
+
+<p class="textjustify">
+  Pour mixture over crust. Wrap bottom of pan in aluminum foil and place in a large <br>
+  roasting pan. Pour in enough boiling water to come halfway up the baking pan.
+
+  
+</p>
+
+<p class="textjustify">
+  Bake until center of cheesecake only slightly jiggles, about 1 hour 30 minutes. <br>
+  Turn off heat, prop open oven door, and let cheesecake cool in oven, 1 hour. 
+  
+</p>
+
+<p class="textjustify">
+  Remove foil and refrigerate cheesecake until completely chilled, at least 5 hours <br>
+  and up to overnight.
+  
+</p>
+
+<p class="textjustify">
+  When ready to serve, top cheesecake with whipped cream and blueberries.
+  
+</p>
+
+
+
+
+</div>
+
+  </div><!-- flexcontainer blueberry cheesecake end--> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="flex-container"><!-- flexcontainer lemon cake --> 
+
+ 
+  
+
+    <div > <img  src="img/alexandra-golovac--Qe0rpF2ThY-unsplash.jpg"  alt="lemoncake" >  </div>
+
+
+
+ 
+
+  <div>
+
+
+
+    <h5 id="sectionlemon"> INGREDIENTS  </h5> 
+   
+  
+
+      <table>
+      
+      <tbody>
+        
+        <tr>
+          <th>For the dough:  </th>
+          <th> </th>
+        </tr>
+      
+        <tr>
+          <td>250 g</td>
+          <td>butter</td>
+        </tr>
+        <tr>
+          <td>200 g</td>
+          <td>sugar</td>
+        </tr>
+        
+        <tr>
+          <td>1</td>
+          <td>Lemon(s), juice and zest thereof</td>
+        </tr>
+
+        <tr>
+          <td>200 g</td>
+          <td>flour</td>
+        </tr>
+
+        <tr>
+          <td>50 g</td>
+          <td>food starch</td>
+        </tr>
+
+        <tr>
+          <td>1 ½ tsp	</td>
+          <td>baking powder</td>
+        </tr>
+
+        <tr>
+          <td>1 pinch(s)</td>
+          <td>salt</td>
+        </tr>
+
+        <tr>
+          <td>4</td>
+          <td>eggs</td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>butter for the mold</td>
+        </tr>
+
+      
+          <tr>
+            <th>For soaking :  </th>
+            <th> </th>
+          </tr>
+       
+
+
+        <tr>
+          <td>½</td>
+          <td>Lemon(s), juice thereof</td>
+        </tr>
+
+       
+          <tr>
+            <th>For the glaze:  </th>
+            <th> </th>
+          </tr>
+       
+
+
+        <tr>
+          <td>150 g</td>
+          <td>powdered sugar</td>
+        </tr>
+        
+        <tr>
+          <td>4 tbsp</td>
+          <td>lemon juice</td>
+        </tr>
+
+
+
+      </tbody>
+    </table>
+  
+
+
+
+
+
+  </div>
+  
+
+ <div>  <h5> PREPERATION  </h5>
+
+<p class="textjustify">First, beat the butter in a mixing bowl until fluffy and add the sugar. <br>
+   Grate the zest of a lemon into the butter mixture. Roll the lemon briefly and squeeze the <br>
+  juice into the bowl. Be careful that no seeds end up in the bowl. Mix the mixture well. <br> 
+</p>
+
+
+<p class="textjustify">
+
+  In a separate bowl, mix the dry ingredients for the dough. Stir into the dough alternately <br>
+  with the eggs. Grease a loaf tin, pour in the dough and bake in the oven for approx. <br>
+  50 minutes at 170 °C.
+
+</p>
+
+<p class="textjustify">
+
+  For the glaze, mix the powdered sugar with about four tablespoons of lemon juice. The<br>
+  glaze shouldn't be too runny. Prick the cake several times with a stick, not too close <br>
+  to the edge, and carefully drizzle the juice of half a lemon into the holes. Finally <br>
+  spread the icing on the cake.
+
+</p>
+
+
+
+
+
+</div>
+
+  </div><!-- flexcontainer lemon cake end--> 
+
+
+
+
+
+
+
+ <!-- recipes end--> 
+
+ <div class="footer">
+
+
+
+  <label for="eingabe" class="textfooter">Shopping List</label><br>
+  <textarea id="eingabe"></textarea><br>
+
+  <button onclick="addItem()">add</button> 
+
+  <button type="button" onclick="deleteList()">delete </button>
+   <p id="list"></p>  
+
+
+
+</div>
+
+
+<div class="footer">
+
+
+
+  
+  <h2 >choose your december favorite</h2>
+
+  
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img  src="img/fernandos1.jpg" alt="rasbperrytartlets">
+    <div class="text9">rasbperry tartlets</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img   src="img/ulianas2.jpg" alt="chocolaterasbperrycake">
+    <div class="text9">chocolate rasbperry cake</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img   src="img/monikas3.jpg" alt="blueberrycheesecake" >
+    <div class="text9">blueberry cheesecake</div>
+  </div>
+  
+  
+ 
+  
+  </div>
+  <br>
+  
+  <div >
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+<br>
+  <form class="textfooter" >
+
+
+      <input type="radio" id="r" name="mode" value="img1" onchange="radiobtn()">
+      <label for="r">rasbperry tartlets</label>
+                  
+      <input type="radio" id="c" name="mode" value="img2" onchange="radiobtn()">
+      <label for="c">chocolate rasbperry cake</label>  
+
+      <input type="radio" id="b" name="mode" value="img3" onchange="radiobtn()">
+      <label for="b">blueberry cheesecake</label>  
+
+
+
+  </form>
+
+  <p id="fav"  class="textfooter"> </p>
+
+
+
+</div>
+
+
+
+ <!-- footer --> 
+ 
+
+ <div class="footer">
+ 
+
+
+  <div  id="email">
+    <h2>never miss a blog-entry</h2>
+  
+  
+    <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      
+
+      <input class="input-field" type="email" id="email2" name="email" placeholder="Email">
+    </div>
+    
+   
+  
+    <button type="submit" class="btn" onclick="alertbtn()">Register</button>
+
+
+    <p id="Thanks"></p>
+  </div>
+
+
+
+  <h1>Congrats! you reached the end.</h1>
+
+
+
+ 
+    <label for="cc">choose the section  you wanna go back to </label>
+    <select id="cc" onchange="submit(this.value)">
+      <option>please choose</option>  
+      <option value="topnav">topnav</option>
+      <option value="all">all recipes</option>
+    </select>
+    
+
+    <a id="where"  href="" class="buttonend"><span>go</span> 
+    </a>
+    <br><br>
+  
+
+
+
+  
+</div>
+
+
+
+
+
+ <!-- footer end--> 
+
+  </body>
+</html>
